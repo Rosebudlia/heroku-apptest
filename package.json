@@ -2,7 +2,9 @@
   "name": "basic-node-app",
   "version": "0.0.1",
   "private": true,
-  "start": "node app.js",
+  "scripts": {
+  	"start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.16.1",
     "pug": "^2.0.0-rc.4"
